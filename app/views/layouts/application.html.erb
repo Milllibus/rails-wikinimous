@@ -10,6 +10,14 @@
   </head>
 
   <body>
+
+  <div class="entete">
+    <ul id="nav">
+      <li><%= link_to "Wikinimous", articles_path %></li>
+      <li><%= link_to "New article", new_article_path %></li>
+    </ul>
+  </div>
+
     <%= yield %>
   </body>
 </html>
